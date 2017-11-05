@@ -1,0 +1,32 @@
+{
+  "name": "localproxypool",
+  "version": "0.0.1",
+  "description": "Local proxy pool cached from database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AppliedSoul/localproxypool.git"
+  },
+  "keywords": [
+    "proxy",
+    "pool",
+    "nodejs"
+  ],
+  "author": "NoelGaur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AppliedSoul/localproxypool/issues"
+  },
+  "homepage": "https://github.com/AppliedSoul/localproxypool#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "mysql2": "^1.4.2",
+    "pg": "^7.4.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.22.5",
+    "tedious": "^2.1.1"
+  }
+}
