@@ -1,2 +1,2 @@
 # localproxypool
-Local proxy pool cached from database
+Local proxy pool cached from database.
