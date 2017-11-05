@@ -70,7 +70,7 @@ class LocalPool{
     getData(){
         return this._refreshData().then(() =>{
             return {proxy: this.proxies[this.proxyCounter++%this.proxies.length],
-                cookies: this.cookies[this.cookieCounter++%this.cookies.length]};
+                cookie: this.cookies[this.cookieCounter++%this.cookies.length]};
         })
     }
     getProxy(){
