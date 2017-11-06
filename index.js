@@ -103,7 +103,7 @@ class LocalPool{
                 }).catch((e) => {
                     console.log("unable to refresh local cookie & proxy pool");
                 });
-            });
+            },this.refreshMs);
         }
     }
 
